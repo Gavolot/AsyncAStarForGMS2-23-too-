@@ -1,0 +1,18 @@
+﻿  library.cpp
+C:\Users\norman\source\repos\PThreadTesting\PThreadTesting\DijkstraPriorityQueue.cpp(16,37): warning C4244: 'argument': conversion from 'const double' to 'const _Kty', possible loss of data
+          with
+          [
+              _Kty=int
+          ]
+C:\Users\norman\source\repos\PThreadTesting\PThreadTesting\DijkstraPriorityQueue.cpp(17,40): warning C4244: 'argument': conversion from 'const double' to 'const _Kty', possible loss of data
+          with
+          [
+              _Kty=int
+          ]
+     Creating library C:\Users\norman\source\repos\PThreadTesting\Release\PThreadTesting.lib and object C:\Users\norman\source\repos\PThreadTesting\Release\PThreadTesting.exp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 644 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  PThreadTesting.vcxproj -> C:\Users\norman\source\repos\PThreadTesting\Release\PThreadTesting.dll
+          1 file(s) copied.
