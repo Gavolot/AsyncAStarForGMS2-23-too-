@@ -1,0 +1,47 @@
+﻿  CollisionBox.cpp
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\CollisionBox.cpp(16,38): error C7525: Встроенные (inline) переменные требуют как минимум "/std:c++17".
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\CollisionBox.cpp(63,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  DataTypes.cpp
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\CollisionBox.cpp(16,38): error C7525: Встроенные (inline) переменные требуют как минимум "/std:c++17".
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\CollisionBox.cpp(63,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\DataTypes.cpp(64,55): error C7525: Встроенные (inline) переменные требуют как минимум "/std:c++17".
+  DijkstraPriorityQueue.cpp
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\CollisionBox.cpp(16,38): error C7525: Встроенные (inline) переменные требуют как минимум "/std:c++17".
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\CollisionBox.cpp(63,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\DataTypes.cpp(64,55): error C7525: Встроенные (inline) переменные требуют как минимум "/std:c++17".
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\DijkstraPriorityQueue.cpp(16,37): warning C4244: аргумент: преобразование "const double" в "const _Kty", возможна потеря данных
+          with
+          [
+              _Kty=int
+          ]
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\DijkstraPriorityQueue.cpp(17,40): warning C4244: аргумент: преобразование "const double" в "const _Kty", возможна потеря данных
+          with
+          [
+              _Kty=int
+          ]
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\DijkstraPriorityQueue.cpp(52,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  DSMap.cpp
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\DSMap.cpp(17,41): error C7525: Встроенные (inline) переменные требуют как минимум "/std:c++17".
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\DSMap.cpp(18,42): error C7525: Встроенные (inline) переменные требуют как минимум "/std:c++17".
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\DSMap.cpp(19,48): error C7525: Встроенные (inline) переменные требуют как минимум "/std:c++17".
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\DSMap.cpp(20,48): error C7525: Встроенные (inline) переменные требуют как минимум "/std:c++17".
+  library.cpp
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\DSMap.cpp(17,41): error C7525: Встроенные (inline) переменные требуют как минимум "/std:c++17".
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\DSMap.cpp(18,42): error C7525: Встроенные (inline) переменные требуют как минимум "/std:c++17".
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\DSMap.cpp(19,48): error C7525: Встроенные (inline) переменные требуют как минимум "/std:c++17".
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\DSMap.cpp(20,48): error C7525: Встроенные (inline) переменные требуют как минимум "/std:c++17".
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\CollisionBox.cpp(16,38): error C7525: Встроенные (inline) переменные требуют как минимум "/std:c++17".
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\CollisionBox.cpp(63,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\DataTypes.cpp(64,55): error C7525: Встроенные (inline) переменные требуют как минимум "/std:c++17".
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\DijkstraPriorityQueue.cpp(16,37): warning C4244: аргумент: преобразование "const double" в "const _Kty", возможна потеря данных
+          with
+          [
+              _Kty=int
+          ]
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\DijkstraPriorityQueue.cpp(17,40): warning C4244: аргумент: преобразование "const double" в "const _Kty", возможна потеря данных
+          with
+          [
+              _Kty=int
+          ]
+C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\DijkstraPriorityQueue.cpp(52,1): warning C4267: return: преобразование из "size_t" в "int"; возможна потеря данных
+  Position.cpp

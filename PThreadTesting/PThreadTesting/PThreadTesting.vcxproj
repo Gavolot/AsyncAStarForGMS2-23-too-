@@ -76,12 +76,14 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
+    <LibraryPath>C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -90,15 +92,16 @@
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\include\pthread;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\norman\source\repos\PThreadTesting\PThreadTesting\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>cmd /c copy /Y C:\Users\norman\source\repos\PThreadTesting\PThreadTesting\dynamic\pthreadVC2.dll ..\Debug</Command>
+      <Command>cmd /c copy /Y C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\dynamic\pthreadVC2.dll ..\Debug</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -110,16 +113,17 @@
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\include\pthread;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalDependencies>pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>pthreadVC2.lib</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
-      <Command>cmd /c copy /Y C:\Users\norman\source\repos\PThreadTesting\PThreadTesting\dynamic\pthreadVC2.dll ..\Release</Command>
+      <Command>cmd /c copy /Y C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\dynamic\pthreadVC2.dll ..\Release</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -143,12 +147,14 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>C:\Users\B2\Desktop\CupboardRoot\Cupboard\GITHUB\AsyncAStarForGMS2-23-too-\PThreadTesting\PThreadTesting\include\pthread;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>pthreadVC2.lib</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>

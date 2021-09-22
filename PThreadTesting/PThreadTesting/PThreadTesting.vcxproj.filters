@@ -35,16 +35,16 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="include\pthread\pthread.h">
+    <ClInclude Include="include\pthread\semaphore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Position.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\pthread\sched.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\pthread\semaphore.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Position.h">
+    <ClInclude Include="include\pthread\pthread.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
